@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Footer 07 Example</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap"
+            rel="stylesheet"
+        >
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <footer>
+            <div class="footer-wrapper">
+                <section class="footer-top">
+                    <div class="footer-headline">
+                        <h2>Subscribe to our newsletter</h2>
+                        <p>
+                            Stay up to date with our news and articles
+                        </p>
+                    </div>
+                    <div class="footer-subscribe">
+                        <input type="email" spellcheck="false" placeholder="Your Email">
+                        <button>
+                            Sign Up
+                        </button>
+                    </div>
+                </section>
+                <div class="footer-columns">
+                    <section class="footer-logo">
+                        <h2>
+                            <img src="assets/logo.svg" alt="Maxwell Technologies">
+                        </h2>
+                    </section>
+                    <section>
+                        <h3>Resources</h3>
+                        <ul>
+                            <li>
+                                <a href="#" title="Support">Support</a>
+                            </li>
+                            <!-- Add the following list items -->
+                        </ul>
+                    </section>
+                </div>
+                <div class="social-bottom">
+                    <div class='social-links'>
+                        <ul>
+                            <li>
+                                <a href="#" title="Instagram">
+                                    <img src="assets/instagram.svg" alt='Instagram'>                       
+                                </a>
+                            </li>
+                             <!-- More social links -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-wrapper">
+                    <small>© QuantumEdge Technologies, Inc. 
+                    <span id="year"></span>, All rights reserved</small>
+                </div>
+            </div>
+        </footer>
+        <script>
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
+    </body>
+</html>
+
+
+      
+                   
